@@ -26,8 +26,7 @@ generating moves for a rook on h8 would be <code> get_rook_attacks(all_pieces, 6
 The bit indices are row-major, i.e. <code>a1 == 0, a2 == 1, ..., h1 == 7, ..., a8 == 56, ... h7 == 62, h8 == 63 </code>
  
 Aside from the .cpp/.h files, the generator also creates a file <code> best_{piece}_magics.txt</code> which contains
-the best magic/shift pair generated so far, if such a file is found, the generator will use it as a base for further searching.
+the best magic/shift pair generated so far, if such a file is found (in the working directory), the generator will use it as a base for further searching.
 
-I've included a <code>best_bishop_magics.txt</code> and <code>best_rook_magics.txt</code>, which I generated after a modest
-amount of searching, the total size of the tables they generate comes around to about 1 MB.
+I've included a <code>best_bishop_magics.txt</code> and <code>best_rook_magics.txt</code>, along with their respective .cpp/.h files which I generated after a modest amount of searching, the total size of the tables comes around to about 1 MB.
 
