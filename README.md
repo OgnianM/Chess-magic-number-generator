@@ -1,4 +1,4 @@
-<title>A magic number generator for chess rook and bishop move generation.</title>
+<h1>A magic number generator for chess rook and bishop move generation.</h1>
 
 See https://www.chessprogramming.org/Magic_Bitboards for more detailed information.
 
